@@ -1,0 +1,33 @@
+<!-- Michael says it is better to have the javascript and jquery near the end of the page so the html can load first -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assests/style.css" />
+    <title>Gif Create Homework</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Animals Gifs are the CUTEST!!!</h1>
+      <div id="button-group"></div>
+
+      <form>
+        <input id="new-animal-input" type="text" placeholder="Add an animal" />
+        <button id="add-animal-button" type="submit">Submit</button>
+      </form>
+
+      <div id="animals-group"></div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assests/app.js"></script>
+  </body>
+</html>
